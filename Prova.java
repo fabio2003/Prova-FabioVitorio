@@ -32,10 +32,10 @@ public class Prova{
             //velocidade média ponderada
             double velocidadeMedia = (qtd60km * 60) + (qtd80km * 80) + (qtd100km * 100) + (qtd120km * 120) + (qtd140km * 140) / 500;
 
-            JOptionPane.showMessageDialog(null, "Placa do veículo: " + placa 
-                                                                + "\nConsumo total: " + consumoTotal 
-                                                                + "\nValor total: R$ " + custoTotal
-                                                                + "\nVelocidade média: " + velocidadeMedia);
+            JOptionPane.showMessageDialog(null, "Placa do veículo: "   + placa 
+                                              + "\nConsumo total: "    + consumoTotal 
+                                              + "\nValor total: R$ "   + custoTotal
+                                              + "\nVelocidade média: " + velocidadeMedia);
 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Erro de digitação");        
